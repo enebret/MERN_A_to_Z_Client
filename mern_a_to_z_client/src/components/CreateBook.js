@@ -72,7 +72,7 @@ class CreateBook extends Component {
                 <div className='form-group'>
                   <input
                     type='text'
-                    placeholder='Title of the Book'
+                    placeholder='Name of Product'
                     name='title'
                     className='form-control'
                     value={this.state.title}
@@ -84,7 +84,7 @@ class CreateBook extends Component {
                 <div className='form-group'>
                   <input
                     type='text'
-                    placeholder='ISBN'
+                    placeholder='Quantity'
                     name='isbn'
                     className='form-control'
                     value={this.state.isbn}
@@ -95,7 +95,7 @@ class CreateBook extends Component {
                 <div className='form-group'>
                   <input
                     type='text'
-                    placeholder='Author'
+                    placeholder='Amount'
                     name='author'
                     className='form-control'
                     value={this.state.author}
@@ -106,7 +106,7 @@ class CreateBook extends Component {
                 <div className='form-group'>
                   <input
                     type='text'
-                    placeholder='Describe this book'
+                    placeholder='Description'
                     name='description'
                     className='form-control'
                     value={this.state.description}
@@ -127,7 +127,7 @@ class CreateBook extends Component {
                 <div className='form-group'>
                   <input
                     type='text'
-                    placeholder='Publisher of this Book'
+                    placeholder='Issuer'
                     name='publisher'
                     className='form-control'
                     value={this.state.publisher}
@@ -136,8 +136,9 @@ class CreateBook extends Component {
                 </div>
 
                 <input
-                    type="submit"
+                    type="button"
                     className="btn btn-outline-warning btn-block mt-4"
+                    value="Print"
                 />
               </form>
           </div>
